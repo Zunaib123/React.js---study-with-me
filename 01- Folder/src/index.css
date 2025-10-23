@@ -1,0 +1,19 @@
+/* Simple CSS boilerplate */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica neue', sans-serif;
+  color: #fff;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+
+h1{
+  color: #fff;
+}
