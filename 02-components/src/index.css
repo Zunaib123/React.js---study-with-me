@@ -1,0 +1,84 @@
+/* Simple CSS boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family:  Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); background-blend-mode: multiply;}
+
+
+.parent {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 30px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.card-parent{
+  display: flex;
+  justify-content: space-between ;
+}
+
+
+.card{
+  flex: 1 1 250px;      
+  width: 300px;
+  background-color: #04010152;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card h4{
+  margin: 2px;
+  font-weight: 600;
+  color: #ff8a8a;
+  font-style: italic;
+}
+.card p{
+  margin: 10px 0px;
+}
+
+.card #btn{
+  background-color: #ffff;
+  color: #2879fd;
+  border: 2px solid #2879fd;
+}
+.card button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #2879fd;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+
+.linkedin{
+  height: 1000px;
+  width: 100px;
+}
